@@ -1,0 +1,33 @@
+/* Mobile */
+@media only screen and (min-width: 0em){
+    .NavBar {
+        display: flex;
+        width: 100vw;
+        max-width: 100%;
+        height: 100px;
+        padding: 5px 15px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .LogoContainer {
+        height: 100%;
+    }
+
+    .Logo {
+        height: 100%;
+        width: 7rem;
+    }
+
+    .IconButton {
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 48em) {};
+
+/* Small Desktop */
+@media only screen and (min-width: 64em) {};

@@ -1,5 +1,6 @@
 // react | next
 import Head from 'next/head';
+import { Header } from '../components/Header/Header';
 
 
 
@@ -15,7 +16,7 @@ export const BaseLayout = ({ children }: IBaseLayout) => {
         <meta httpEquiv='x-ua-compatible' content='ie=edge' />
         <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no' />
       </Head>
-      {/* Header */}
+      <Header />
       <main id='main-content' data-content='main'>
         {children}
       </main>
